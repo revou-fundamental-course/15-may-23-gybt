@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kalkulator Matematik</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -35,6 +35,52 @@
           <p class="result-luas">L = <span id="output-luas"></span></p>
 
           <button name="hitung-luas" onclick="hitungLuas()">Hitung</button>
+          <button name="reset-luas">Reset</button>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span class="title2">Keliling Persegi</span>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="figure">
+          <div class="square"></div>
+        </div>
+        <div class="formula-description">
+          <p>Rumus Keliling Persegi yaitu:</p>
+          <p>K = 4 x S</p>
+
+          <p>Di mana:</p>
+          <p>K = Keliling</p>
+          <p>S = Sisi</p>
+        </div>
+        <div>
+          <h3>Hitung Keliling Persegi</h3>
+          <input id="keliling-persegi" required />
+
+          <p class="result-keliling" id="rumus-keliling">K = 4 x S</p>
+          <p class="result-keliling" id="perhitungan-keliling"></p>
+          <p class="result-keliling">K = <span id="output_keliling"></span></p>
+
+          <button name="hitung-luas" onclick="hitungKeliling()">Hitung</button>
           <button name="reset-luas">Reset</button>
         </div>
       </div>
